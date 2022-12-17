@@ -6,7 +6,7 @@ pipeline {
         echo "building the application...."
       }
     }
-    stage("testing") {
+    stage("rpm build") {
       steps {
         echo "building the application...."
       }
